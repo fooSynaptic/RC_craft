@@ -1,2 +1,2 @@
 # RC_craft
-Some reading comprehension technology build from source.
+Some reading comprehension technology build from Scratch.
