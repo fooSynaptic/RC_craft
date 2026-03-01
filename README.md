@@ -5,7 +5,7 @@
 
 A collection of machine reading comprehension (MRC) algorithms built from scratch using TensorFlow. This project demonstrates the implementation of key components in modern MRC systems, including document retrieval and neural reading comprehension models.
 
-## 📖 Overview
+## <img src=".github/icons/book.svg" width="16" height="16" alt="book"> Overview
 
 Machine Reading Comprehension is a challenging NLP task where a machine reads a given passage and answers questions based on its understanding. This project implements:
 
@@ -13,7 +13,7 @@ Machine Reading Comprehension is a challenging NLP task where a machine reads a 
 - **Neural Reading Comprehension**: Bi-directional attention flow (BiDAF) based model
 - **End-to-End Pipeline**: From document retrieval to answer extraction
 
-## 🚀 Quick Start
+## <img src=".github/icons/rocket.svg" width="16" height="16" alt="rocket"> Quick Start
 
 ### Installation
 
@@ -26,7 +26,7 @@ cd RC_craft
 pip install tensorflow==1.15 numpy tqdm gensim scikit-learn jieba
 ```
 
-## 📁 Project Structure
+## <img src=".github/icons/folder.svg" width="16" height="16" alt="folder"> Project Structure
 
 ```
 RC_craft/
@@ -42,7 +42,7 @@ RC_craft/
 └── README.md                     # This file
 ```
 
-## 📚 Components
+## <img src=".github/icons/book.svg" width="16" height="16" alt="book"> Components
 
 ### 1. Document Retrieval (`src/retrieve/document_retriever.py`)
 
@@ -85,7 +85,7 @@ A TensorFlow implementation of a neural reading comprehension model featuring:
 - **Fusing Layer**: CNN-based feature fusion
 - **Decoding Layer**: Pointer network for answer span prediction
 
-## 🎯 Model Architecture
+## <img src=".github/icons/target.svg" width="16" height="16" alt="target"> Model Architecture
 
 ```
 Input (Passage + Question)
@@ -103,16 +103,16 @@ Decoding Layer (Pointer Network)
 Answer Span (start_pos, end_pos)
 ```
 
-## 📊 Results
+## <img src=".github/icons/chart.svg" width="16" height="16" alt="chart"> Results
 
 The BM25 retriever achieves ~91.2% accuracy on the test dataset for document retrieval.
 
-## 🔗 Related Resources
+## <img src=".github/icons/link.svg" width="16" height="16" alt="link"> Related Resources
 
 - [Tutorial Part 1](TeachMachineComprehendTextAndAnswerQuestion_part1.md) - Introduction to MRC
 - [Tutorial Part 2](TeachMachineComprehendTextAndAnswerQuestion_part2.md) - Advanced techniques
 
-## 📝 License
+## <img src=".github/icons/note.svg" width="16" height="16" alt="note"> License
 
 MIT License
 
